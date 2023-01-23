@@ -33,6 +33,59 @@
 // z()
 
 
+
+// Counter using closure;
+
+// function counter(){
+//     let count = 0;
+//     return function (){
+//          count++;
+//          console.log(count)
+//     }
+// }
+
+// let updateCount = counter()
+// updateCount()
+// updateCount()
+// updateCount()
+// updateCount()
+// updateCount()
+// updateCount()
+// updateCount()
+// updateCount() 
+
+
+
+// ================MAP REDUCE FILTER============================
+
+// MAP => Map method is used to create a new array from the existing one , by applying a function to each element to the first array.
+//  let arr = [1,2,3,4,5]
+
+//  let multipleArr = arr.map((num,i,arr)=>{
+//     return num*3 + i;
+//  })
+// console.log(multipleArr)
+
+// FILTER METHOD = > Filter method take each element of array and apply a condition to it if the condition is true then it include the elem to array and return it. It also take three param nums,index,arr
+
+// let arr = [1,2,3,4,5];
+
+// const moreThanTwo = arr.filter((nums)=>{
+//  return nums>2
+// })
+// console.log(moreThanTwo)
+
+
+// REDUCE METHOD => Reduce method reduce the given array into a single element as given in the user callback function.
+// It take two value one callback function and the initial value. 
+
+// const arr = [2,4,6,67,7] 
+// const sum = arr.reduce((acc,curr , i ,arr)=>{
+// return acc + curr;
+// },0)
+//  console.log(sum)
+
+
 //  THIS Keyword :=> 
 
 
