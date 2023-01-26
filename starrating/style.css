@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 50px;
+   font-size: 30px;
+   color: rgb(251, 246, 246);
+   background-color: grey;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+}
+
+.color{
+    color: rgb(248, 248, 106);
+}
